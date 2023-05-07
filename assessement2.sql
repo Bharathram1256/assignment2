@@ -48,7 +48,7 @@ address varchar(40) not null,
 mobile_no int(15) not null,
 consultant varchar(40) not null
 );
-drop table patient;
+
 
 -- creating tableReviews table containing reviews posted by patients.
 create table Reviews(patient_name varchar(35) not null,
