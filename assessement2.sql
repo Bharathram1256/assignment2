@@ -178,7 +178,7 @@ insert into customer values(3009,"Geoff Cameron","Berlin",100,5003);
 insert into customer values(3003,"Jozy Altidor","Moscow ",200,5007);
 insert into customer(customer_id,cust_name,city,salesman_id) values(3001,"Brad Guzan" ,"London",5005);
 
-truncate table customer;
+
 create table salesman(salesman_id int,name varchar(33),city varchar(40),commission float); 
 insert into salesman values(5001,"James Hoog","New York",0.15);
 insert into salesman values(5002,"Nail Knite", "Paris",0.13);
